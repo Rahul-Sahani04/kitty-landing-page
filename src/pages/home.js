@@ -3,6 +3,9 @@ import "../styles/Home.css";
 import { FlipWordsDemo } from "../components/FlipWordsDemo";
 
 const Home = () => {
+  // When developing, change ./assets to .
+
+
   function FollowMouse(event) {
     const eyes = document.querySelectorAll(".eye");
     eyes.forEach((eye) => {
@@ -44,7 +47,7 @@ const Home = () => {
         // Reset eye position to center
         eye.style.transform = `rotate(0deg)`;
 
-        eye.src = "./kitty-landing-page/assets/eye_closed.png";
+        eye.src = "./assets/eye_closed.png";
       });
     };
 
@@ -52,7 +55,7 @@ const Home = () => {
       console.log("mouseout");
       document.addEventListener("mousemove", handleMouseMove);
       eyes.forEach((eye) => {
-        eye.src = "./kitty-landing-page/assets/black_kitty_eye3.png";
+        eye.src = "./assets/black_kitty_eye3.png";
       });
     };
 
@@ -80,18 +83,18 @@ const Home = () => {
           <FlipWordsDemo />
         </div>
         <img
-          src="./kitty-landing-page/assets/black_kitt_cleanup.jpeg"
+          src="./assets/black_kitt_cleanup.jpeg"
           className="kitty"
           alt="Kitty"
         />
         <div className="eyes">
           <img
-            src="./kitty-landing-page/assets/black_kitty_eye3.png"
+            src="./assets/black_kitty_eye3.png"
             className="eye l-eye"
             alt="left eye"
           />
           <img
-            src="./kitty-landing-page/assets/black_kitty_eye3.png"
+            src="./assets/black_kitty_eye3.png"
             className="eye r-eye"
             alt="right eye"
           />
@@ -99,7 +102,7 @@ const Home = () => {
       </div>
       <div className="lowerHalf"></div>
         <img
-          src="./kitty-landing-page/assets/catHand.png"
+          src="./assets/catHand.png"
           alt="Kitty Hand"
           className="kittyhand"
         />

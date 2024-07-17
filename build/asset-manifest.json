@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kitty-landing-page/static/css/main.bf87ccda.css",
-    "main.js": "/kitty-landing-page/static/js/main.a35b5d19.js",
+    "main.js": "/kitty-landing-page/static/js/main.a8905817.js",
     "static/js/453.17ffa7bf.chunk.js": "/kitty-landing-page/static/js/453.17ffa7bf.chunk.js",
     "index.html": "/kitty-landing-page/index.html",
     "main.bf87ccda.css.map": "/kitty-landing-page/static/css/main.bf87ccda.css.map",
-    "main.a35b5d19.js.map": "/kitty-landing-page/static/js/main.a35b5d19.js.map",
+    "main.a8905817.js.map": "/kitty-landing-page/static/js/main.a8905817.js.map",
     "453.17ffa7bf.chunk.js.map": "/kitty-landing-page/static/js/453.17ffa7bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf87ccda.css",
-    "static/js/main.a35b5d19.js"
+    "static/js/main.a8905817.js"
   ]
 }
