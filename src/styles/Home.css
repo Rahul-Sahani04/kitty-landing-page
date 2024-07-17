@@ -1,0 +1,49 @@
+.upperHalf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #FABDBE;
+
+    position: relative;
+}
+
+.upperHalf .kitty{
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+}
+
+.eye{
+    width: 7%;
+    position: absolute;
+    bottom: 5%;
+}
+
+.l-eye{
+    left: 40%;
+}
+
+.r-eye{
+    right: 40%;
+}
+
+.lowerHalf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #f5f5f5;
+
+    position: relative;
+    z-index: 100;
+}
+
+
+.kittyhand{
+    position: absolute;
+    bottom: -100%;
+    z-index: 0;
+    rotate: 340deg;
+    left: 40%;
+}
