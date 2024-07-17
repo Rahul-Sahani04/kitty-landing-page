@@ -43,5 +43,6 @@
   "devDependencies": {
     "tailwindcss": "^3.4.6"
   },
+  "home": "https://rsahani.me/kitty-landing-page",
   "homepage": "https://rsahani.me/kitty-landing-page"
 }
