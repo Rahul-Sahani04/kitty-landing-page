@@ -34,14 +34,8 @@ const ErrorPage = () => {
 
 const router = createBrowserRouter([
   {
-    path: "/home",
+    path: "/",
     element: <Home />,
-  },
-
-  // 404 page if no route is found
-  {
-    path: "*",
-    element: <ErrorPage />,
   },
 ]);
 
