@@ -17,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "react-scripts build && git add . && git commit -m 'deploy' && git push",
+
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
